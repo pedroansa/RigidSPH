@@ -1,0 +1,2871 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/scenes_inf585/12_sph/12_sph.exe"
+		},
+		{
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/scenes_inf585/12_sph/12_sph.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/CMakeLists.txt",
+			"C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG   /MP /wd4244 /wd4127 /wd4267 /wd4706 /wd4458 /wd4996 /wd26495 /openmp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "CGP_OPENGL_3_3"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "IMGUI_IMPL_OPENGL_LOADER_GLAD"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SOLUTION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/scenes_inf585/12_sph/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/precompiled/glfw/windows/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				6,
+				11,
+				19,
+				21,
+				23,
+				28,
+				33,
+				37,
+				40,
+				46,
+				48,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				67,
+				69,
+				71,
+				73,
+				76,
+				78,
+				80,
+				82,
+				84,
+				87,
+				89,
+				91,
+				94,
+				96,
+				98,
+				100,
+				103,
+				105,
+				107,
+				109,
+				112,
+				114,
+				116,
+				120,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				136,
+				138,
+				140,
+				142,
+				144,
+				147,
+				149,
+				151,
+				153,
+				156,
+				158,
+				161,
+				163,
+				165,
+				168,
+				170,
+				173,
+				175,
+				177,
+				179,
+				182,
+				184,
+				186,
+				189,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				211,
+				213,
+				215,
+				221,
+				224,
+				227,
+				230,
+				234,
+				236,
+				237,
+				238,
+				240,
+				243,
+				247,
+				249,
+				251,
+				253,
+				264,
+				266,
+				267,
+				269
+			]
+		}
+	],
+	"id" : "12_sph::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\pedro\\OneDrive\\Documentos\\IGD\\INF585\\inf585_lab_code\\cgp\\library\\third_party\\precompiled\\glfw\\windows\\lib-visual\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "12_sph",
+	"nameOnDisk" : "12_sph.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "cgp\\01_base",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "cgp\\01_base\\basic_types",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "cgp\\01_base\\error",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		},
+		{
+			"name" : "cgp\\01_base\\stl",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"name" : "cgp\\01_base\\string",
+			"sourceIndexes" : 
+			[
+				6,
+				7
+			]
+		},
+		{
+			"name" : "cgp\\01_base\\types",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray\\numarray",
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray\\numarray\\test",
+			"sourceIndexes" : 
+			[
+				11,
+				12
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray\\numarray_stack\\implementation",
+			"sourceIndexes" : 
+			[
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray\\numarray_stack",
+			"sourceIndexes" : 
+			[
+				17,
+				18
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray\\numarray_stack\\special_types",
+			"sourceIndexes" : 
+			[
+				19,
+				20
+			]
+		},
+		{
+			"name" : "cgp\\02_numarray\\numarray_stack\\test",
+			"sourceIndexes" : 
+			[
+				21,
+				22
+			]
+		},
+		{
+			"name" : "cgp\\03_files",
+			"sourceIndexes" : 
+			[
+				23,
+				24
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid",
+			"sourceIndexes" : 
+			[
+				25
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid\\grid_2D",
+			"sourceIndexes" : 
+			[
+				26
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid\\grid_3D",
+			"sourceIndexes" : 
+			[
+				27
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid\\test",
+			"sourceIndexes" : 
+			[
+				28,
+				29
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container",
+			"sourceIndexes" : 
+			[
+				30
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid_stack",
+			"sourceIndexes" : 
+			[
+				31
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid_stack\\grid_stack_2D",
+			"sourceIndexes" : 
+			[
+				32
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\grid_stack\\grid_stack_2D\\test",
+			"sourceIndexes" : 
+			[
+				33,
+				34
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\matrix_stack",
+			"sourceIndexes" : 
+			[
+				35,
+				36
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\matrix_stack\\special_types\\definition",
+			"sourceIndexes" : 
+			[
+				37,
+				38
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\matrix_stack\\special_types",
+			"sourceIndexes" : 
+			[
+				39
+			]
+		},
+		{
+			"name" : "cgp\\04_grid_container\\offset_grid",
+			"sourceIndexes" : 
+			[
+				40,
+				41
+			]
+		},
+		{
+			"name" : "cgp\\05_vec",
+			"sourceIndexes" : 
+			[
+				42
+			]
+		},
+		{
+			"name" : "cgp\\05_vec\\vec2",
+			"sourceIndexes" : 
+			[
+				43
+			]
+		},
+		{
+			"name" : "cgp\\05_vec\\vec3",
+			"sourceIndexes" : 
+			[
+				44
+			]
+		},
+		{
+			"name" : "cgp\\05_vec\\vec4",
+			"sourceIndexes" : 
+			[
+				45
+			]
+		},
+		{
+			"name" : "cgp\\06_mat\\functions",
+			"sourceIndexes" : 
+			[
+				46,
+				47
+			]
+		},
+		{
+			"name" : "cgp\\06_mat\\functions\\test",
+			"sourceIndexes" : 
+			[
+				48,
+				49
+			]
+		},
+		{
+			"name" : "cgp\\06_mat",
+			"sourceIndexes" : 
+			[
+				50
+			]
+		},
+		{
+			"name" : "cgp\\06_mat\\mat2",
+			"sourceIndexes" : 
+			[
+				51,
+				52
+			]
+		},
+		{
+			"name" : "cgp\\06_mat\\mat3",
+			"sourceIndexes" : 
+			[
+				53,
+				54
+			]
+		},
+		{
+			"name" : "cgp\\06_mat\\mat4",
+			"sourceIndexes" : 
+			[
+				55,
+				56
+			]
+		},
+		{
+			"name" : "cgp\\06_mat\\test",
+			"sourceIndexes" : 
+			[
+				57,
+				58
+			]
+		},
+		{
+			"name" : "cgp\\07_image",
+			"sourceIndexes" : 
+			[
+				59,
+				60
+			]
+		},
+		{
+			"name" : "cgp\\08_random_noise\\noise",
+			"sourceIndexes" : 
+			[
+				61,
+				62
+			]
+		},
+		{
+			"name" : "cgp\\08_random_noise\\rand",
+			"sourceIndexes" : 
+			[
+				63,
+				64
+			]
+		},
+		{
+			"name" : "cgp\\08_random_noise",
+			"sourceIndexes" : 
+			[
+				65
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\affine",
+			"sourceIndexes" : 
+			[
+				66
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\affine\\affine",
+			"sourceIndexes" : 
+			[
+				67,
+				68
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\affine\\affine_rt",
+			"sourceIndexes" : 
+			[
+				69,
+				70
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\affine\\affine_rts",
+			"sourceIndexes" : 
+			[
+				71,
+				72
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\frame",
+			"sourceIndexes" : 
+			[
+				73,
+				74
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation",
+			"sourceIndexes" : 
+			[
+				75
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\interpolation",
+			"sourceIndexes" : 
+			[
+				76,
+				77
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\projection",
+			"sourceIndexes" : 
+			[
+				78,
+				79
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\quaternion",
+			"sourceIndexes" : 
+			[
+				80,
+				81
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\rotation_transform",
+			"sourceIndexes" : 
+			[
+				82,
+				83
+			]
+		},
+		{
+			"name" : "cgp\\09_geometric_transformation\\rotation_transform\\test",
+			"sourceIndexes" : 
+			[
+				84,
+				85
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model",
+			"sourceIndexes" : 
+			[
+				86
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model\\camera_first_person",
+			"sourceIndexes" : 
+			[
+				87,
+				88
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model\\camera_first_person_euler",
+			"sourceIndexes" : 
+			[
+				89,
+				90
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model\\camera_generic_base",
+			"sourceIndexes" : 
+			[
+				91,
+				92
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model",
+			"sourceIndexes" : 
+			[
+				93
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model\\camera_orbit",
+			"sourceIndexes" : 
+			[
+				94,
+				95
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model\\camera_orbit_euler",
+			"sourceIndexes" : 
+			[
+				96,
+				97
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_model\\common_functions",
+			"sourceIndexes" : 
+			[
+				98,
+				99
+			]
+		},
+		{
+			"name" : "cgp\\10_camera_model\\camera_projection",
+			"sourceIndexes" : 
+			[
+				100,
+				101
+			]
+		},
+		{
+			"name" : "cgp\\11_mesh",
+			"sourceIndexes" : 
+			[
+				102
+			]
+		},
+		{
+			"name" : "cgp\\11_mesh\\mesh",
+			"sourceIndexes" : 
+			[
+				103,
+				104
+			]
+		},
+		{
+			"name" : "cgp\\11_mesh\\primitive",
+			"sourceIndexes" : 
+			[
+				105,
+				106
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\bounding_box",
+			"sourceIndexes" : 
+			[
+				107,
+				108
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\curve",
+			"sourceIndexes" : 
+			[
+				109,
+				110
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\implicit",
+			"sourceIndexes" : 
+			[
+				111
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\implicit\\marching_cube\\helper",
+			"sourceIndexes" : 
+			[
+				112,
+				113
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\implicit\\marching_cube",
+			"sourceIndexes" : 
+			[
+				114,
+				115
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\intersection",
+			"sourceIndexes" : 
+			[
+				116,
+				117
+			]
+		},
+		{
+			"name" : "cgp\\12_shape",
+			"sourceIndexes" : 
+			[
+				118
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\spatial_domain",
+			"sourceIndexes" : 
+			[
+				119
+			]
+		},
+		{
+			"name" : "cgp\\12_shape\\spatial_domain\\spatial_domain_grid_3D",
+			"sourceIndexes" : 
+			[
+				120,
+				121
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\buffer",
+			"sourceIndexes" : 
+			[
+				122
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\buffer\\ebo",
+			"sourceIndexes" : 
+			[
+				123,
+				124
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\buffer\\opengl_buffer",
+			"sourceIndexes" : 
+			[
+				125,
+				126
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\buffer\\vbo",
+			"sourceIndexes" : 
+			[
+				127,
+				128
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\debug",
+			"sourceIndexes" : 
+			[
+				129,
+				130
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\emscripten",
+			"sourceIndexes" : 
+			[
+				131,
+				132
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\fbo",
+			"sourceIndexes" : 
+			[
+				133,
+				134
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl",
+			"sourceIndexes" : 
+			[
+				135
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\shaders\\cache_uniform_location",
+			"sourceIndexes" : 
+			[
+				136,
+				137
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\shaders",
+			"sourceIndexes" : 
+			[
+				138,
+				139
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\texture",
+			"sourceIndexes" : 
+			[
+				140,
+				141
+			]
+		},
+		{
+			"name" : "cgp\\13_opengl\\uniform",
+			"sourceIndexes" : 
+			[
+				142,
+				143
+			]
+		},
+		{
+			"name" : "cgp\\14_window\\imgui",
+			"sourceIndexes" : 
+			[
+				144,
+				145
+			]
+		},
+		{
+			"name" : "cgp\\14_window",
+			"sourceIndexes" : 
+			[
+				146
+			]
+		},
+		{
+			"name" : "cgp\\14_window\\window",
+			"sourceIndexes" : 
+			[
+				147,
+				148
+			]
+		},
+		{
+			"name" : "cgp\\15_input_devices",
+			"sourceIndexes" : 
+			[
+				149,
+				150
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\curve_drawable",
+			"sourceIndexes" : 
+			[
+				151,
+				152
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\curve_drawable_dynamic_extend",
+			"sourceIndexes" : 
+			[
+				153,
+				154
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable",
+			"sourceIndexes" : 
+			[
+				155
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\environment",
+			"sourceIndexes" : 
+			[
+				156,
+				157
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\hierarchy_mesh_drawable",
+			"sourceIndexes" : 
+			[
+				158,
+				159
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\material",
+			"sourceIndexes" : 
+			[
+				160
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\material\\material_mesh_drawable_phong",
+			"sourceIndexes" : 
+			[
+				161,
+				162
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\mesh_drawable",
+			"sourceIndexes" : 
+			[
+				163,
+				164
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\special_drawable\\skybox_drawable",
+			"sourceIndexes" : 
+			[
+				165,
+				166
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\special_drawable",
+			"sourceIndexes" : 
+			[
+				167
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\special_drawable\\trajectory_drawable",
+			"sourceIndexes" : 
+			[
+				168,
+				169
+			]
+		},
+		{
+			"name" : "cgp\\16_drawable\\triangles_drawable",
+			"sourceIndexes" : 
+			[
+				170,
+				171
+			]
+		},
+		{
+			"name" : "cgp\\17_timer",
+			"sourceIndexes" : 
+			[
+				172
+			]
+		},
+		{
+			"name" : "cgp\\17_timer\\timer_basic",
+			"sourceIndexes" : 
+			[
+				173,
+				174
+			]
+		},
+		{
+			"name" : "cgp\\17_timer\\timer_event_periodic",
+			"sourceIndexes" : 
+			[
+				175,
+				176
+			]
+		},
+		{
+			"name" : "cgp\\17_timer\\timer_fps",
+			"sourceIndexes" : 
+			[
+				177,
+				178
+			]
+		},
+		{
+			"name" : "cgp\\17_timer\\timer_interval",
+			"sourceIndexes" : 
+			[
+				179,
+				180
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions\\picking",
+			"sourceIndexes" : 
+			[
+				181
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions\\picking\\picking_plane",
+			"sourceIndexes" : 
+			[
+				182,
+				183
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions\\picking\\picking_spheres",
+			"sourceIndexes" : 
+			[
+				184,
+				185
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions\\picking\\picking_structure",
+			"sourceIndexes" : 
+			[
+				186,
+				187
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions\\tracker",
+			"sourceIndexes" : 
+			[
+				188
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions\\tracker\\velocity_tracker",
+			"sourceIndexes" : 
+			[
+				189,
+				190
+			]
+		},
+		{
+			"name" : "cgp\\18_user_interactions",
+			"sourceIndexes" : 
+			[
+				191
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller",
+			"sourceIndexes" : 
+			[
+				192
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_2d_displacement",
+			"sourceIndexes" : 
+			[
+				193,
+				194
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_first_person",
+			"sourceIndexes" : 
+			[
+				195,
+				196
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_first_person_euler",
+			"sourceIndexes" : 
+			[
+				197,
+				198
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_fly_mode",
+			"sourceIndexes" : 
+			[
+				199,
+				200
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_generic_base",
+			"sourceIndexes" : 
+			[
+				201,
+				202
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_orbit",
+			"sourceIndexes" : 
+			[
+				203,
+				204
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\camera_controller_orbit_euler",
+			"sourceIndexes" : 
+			[
+				205,
+				206
+			]
+		},
+		{
+			"name" : "cgp\\19_camera_controller\\test",
+			"sourceIndexes" : 
+			[
+				207,
+				208
+			]
+		},
+		{
+			"name" : "cgp\\20_format_parser",
+			"sourceIndexes" : 
+			[
+				209
+			]
+		},
+		{
+			"name" : "cgp\\20_format_parser\\mesh_loader",
+			"sourceIndexes" : 
+			[
+				210
+			]
+		},
+		{
+			"name" : "cgp\\20_format_parser\\mesh_loader\\obj",
+			"sourceIndexes" : 
+			[
+				211,
+				212
+			]
+		},
+		{
+			"name" : "cgp\\20_format_parser\\mesh_loader\\obj_advanced",
+			"sourceIndexes" : 
+			[
+				213,
+				214
+			]
+		},
+		{
+			"name" : "cgp\\21_scene_project_helper\\path",
+			"sourceIndexes" : 
+			[
+				215,
+				216
+			]
+		},
+		{
+			"name" : "cgp\\21_scene_project_helper",
+			"sourceIndexes" : 
+			[
+				217
+			]
+		},
+		{
+			"name" : "cgp",
+			"sourceIndexes" : 
+			[
+				218,
+				219,
+				220
+			]
+		},
+		{
+			"name" : "third_party\\src\\glad\\opengl33",
+			"sourceIndexes" : 
+			[
+				221,
+				222,
+				223
+			]
+		},
+		{
+			"name" : "third_party\\src\\glad\\opengl41",
+			"sourceIndexes" : 
+			[
+				224,
+				225,
+				226
+			]
+		},
+		{
+			"name" : "third_party\\src\\glad\\opengl43",
+			"sourceIndexes" : 
+			[
+				227,
+				228,
+				229
+			]
+		},
+		{
+			"name" : "third_party\\src\\glad\\opengl46",
+			"sourceIndexes" : 
+			[
+				230,
+				231,
+				232
+			]
+		},
+		{
+			"name" : "third_party\\src\\imgui",
+			"sourceIndexes" : 
+			[
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246
+			]
+		},
+		{
+			"name" : "third_party\\src\\jpeg",
+			"sourceIndexes" : 
+			[
+				247,
+				248,
+				249,
+				250
+			]
+		},
+		{
+			"name" : "third_party\\src\\lodepng",
+			"sourceIndexes" : 
+			[
+				251,
+				252
+			]
+		},
+		{
+			"name" : "third_party\\src\\simplexnoise",
+			"sourceIndexes" : 
+			[
+				253,
+				254
+			]
+		},
+		{
+			"name" : "third_party\\src\\tinyobj",
+			"sourceIndexes" : 
+			[
+				255
+			]
+		},
+		{
+			"name" : "shaders\\mesh",
+			"sourceIndexes" : 
+			[
+				256,
+				257,
+				258,
+				259
+			]
+		},
+		{
+			"name" : "shaders\\single_color",
+			"sourceIndexes" : 
+			[
+				260,
+				261,
+				262,
+				263
+			]
+		},
+		{
+			"name" : "src",
+			"sourceIndexes" : 
+			[
+				264,
+				265,
+				266,
+				267,
+				268
+			]
+		},
+		{
+			"name" : "src\\simulation",
+			"sourceIndexes" : 
+			[
+				269,
+				270
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/base.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/basic_types/basic_types.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/basic_types/basic_types.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/error/error.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/error/error.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/stl/stl.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/string/string.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/string/string.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/01_base/types/types.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray/numarray.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray/test/test_numarray.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray/test/test_numarray.hpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/implementation/numarray_stack.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/implementation/numarray_stack2.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/implementation/numarray_stack3.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/implementation/numarray_stack4.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/numarray_stack.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/numarray_stack_fwd.hpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/special_types/special_types.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/special_types/special_types.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/test/test_numarray_stack.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/02_numarray/numarray_stack/test/test_numarray_stack.hpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/03_files/files.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/03_files/files.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid/grid.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid/grid_2D/grid_2D.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid/grid_3D/grid_3D.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid/test/test_grid.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid/test/test_grid.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid_container.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid_stack/grid_stack.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid_stack/grid_stack_2D/grid_stack_2D.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid_stack/grid_stack_2D/test/test_grid_stack_2D.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/grid_stack/grid_stack_2D/test/test_grid_stack_2D.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/matrix_stack/matrix_stack.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/matrix_stack/matrix_stack_fwd.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/matrix_stack/special_types/definition/special_types.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/matrix_stack/special_types/definition/special_types.hpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/matrix_stack/special_types/special_types.hpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/offset_grid/offset_grid.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/04_grid_container/offset_grid/offset_grid.hpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/05_vec/vec.hpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/05_vec/vec2/vec2.hpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/05_vec/vec3/vec3.hpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/05_vec/vec4/vec4.hpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/functions/mat_functions.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/functions/mat_functions.hpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/functions/test/test_vec_mat.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/functions/test/test_vec_mat.hpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat.hpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat2/mat2.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat2/mat2.hpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat3/mat3.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat3/mat3.hpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat4/mat4.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/mat4/mat4.hpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/test/test_matrix_stack.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/06_mat/test/test_matrix_stack.hpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/07_image/image.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/07_image/image.hpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/08_random_noise/noise/noise.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/08_random_noise/noise/noise.hpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/08_random_noise/rand/rand.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/08_random_noise/rand/rand.hpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/08_random_noise/random_noise.hpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine.hpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine/affine.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine/affine.hpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine_rt/affine_rt.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine_rt/affine_rt.hpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine_rts/affine_rts.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/affine/affine_rts/affine_rts.hpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/frame/frame.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/frame/frame.hpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/geometric_transformation.hpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/interpolation/interpolation.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/interpolation/interpolation.hpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/projection/projection.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/projection/projection.hpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/quaternion/quaternion.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/quaternion/quaternion.hpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/rotation_transform/rotation_transform.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/rotation_transform/rotation_transform.hpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/rotation_transform/test/test_rotation.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/09_geometric_transformation/rotation_transform/test/test_rotation.hpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model.hpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_first_person/camera_first_person.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_first_person/camera_first_person.hpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_first_person_euler/camera_first_person_euler.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_first_person_euler/camera_first_person_euler.hpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_generic_base/camera_generic_base.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_generic_base/camera_generic_base.hpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_model.hpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_orbit/camera_orbit.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_orbit/camera_orbit.hpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_orbit_euler/camera_orbit_euler.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/camera_orbit_euler/camera_orbit_euler.hpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/common_functions/common_functions.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_model/common_functions/common_functions.hpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_projection/camera_projection.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/10_camera_model/camera_projection/camera_projection.hpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/11_mesh/mesh.hpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/11_mesh/mesh/mesh.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/11_mesh/mesh/mesh.hpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/11_mesh/primitive/primitive.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/11_mesh/primitive/primitive.hpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/bounding_box/bounding_box.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/bounding_box/bounding_box.hpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/curve/curve.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/curve/curve.hpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/implicit/implicit.hpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/implicit/marching_cube/helper/marching_cubes_lut.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/implicit/marching_cube/helper/marching_cubes_lut.hpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/implicit/marching_cube/marching_cube.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/implicit/marching_cube/marching_cube.hpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/intersection/intersection.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/intersection/intersection.hpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/shape.hpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/spatial_domain/spatial_domain.hpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/12_shape/spatial_domain/spatial_domain_grid_3D/spatial_domain_grid_3D.hpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/buffer.hpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/ebo/ebo.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/ebo/ebo.hpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/opengl_buffer/opengl_buffer.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/opengl_buffer/opengl_buffer.hpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/vbo/vbo.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/buffer/vbo/vbo.hpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/debug/debug.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/debug/debug.hpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/emscripten/emscripten.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/emscripten/emscripten.hpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/fbo/fbo.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/fbo/fbo.hpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/opengl.hpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/shaders/cache_uniform_location/cache_uniform_location.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/shaders/cache_uniform_location/cache_uniform_location.hpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/shaders/shaders.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/shaders/shaders.hpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/texture/texture.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/texture/texture.hpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/uniform/uniform.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/13_opengl/uniform/uniform.hpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/14_window/imgui/imgui.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/14_window/imgui/imgui.hpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/14_window/window.hpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/14_window/window/window.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/14_window/window/window.hpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/15_input_devices/input_devices.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/15_input_devices/input_devices.hpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/curve_drawable/curve_drawable.cpp",
+			"sourceGroupIndex" : 89
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/curve_drawable/curve_drawable.hpp",
+			"sourceGroupIndex" : 89
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.cpp",
+			"sourceGroupIndex" : 90
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/curve_drawable_dynamic_extend/curve_drawable_dynamic_extend.hpp",
+			"sourceGroupIndex" : 90
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/drawable.hpp",
+			"sourceGroupIndex" : 91
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/environment/environment.cpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/environment/environment.hpp",
+			"sourceGroupIndex" : 92
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.cpp",
+			"sourceGroupIndex" : 93
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/hierarchy_mesh_drawable/hierarchy_mesh_drawable.hpp",
+			"sourceGroupIndex" : 93
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/material/material.hpp",
+			"sourceGroupIndex" : 94
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.cpp",
+			"sourceGroupIndex" : 95
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/material/material_mesh_drawable_phong/material_mesh_drawable_phong.hpp",
+			"sourceGroupIndex" : 95
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/mesh_drawable/mesh_drawable.cpp",
+			"sourceGroupIndex" : 96
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/mesh_drawable/mesh_drawable.hpp",
+			"sourceGroupIndex" : 96
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/special_drawable/skybox_drawable/skybox_drawable.cpp",
+			"sourceGroupIndex" : 97
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/special_drawable/skybox_drawable/skybox_drawable.hpp",
+			"sourceGroupIndex" : 97
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/special_drawable/special_drawable.hpp",
+			"sourceGroupIndex" : 98
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/special_drawable/trajectory_drawable/trajectory_drawable.cpp",
+			"sourceGroupIndex" : 99
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/special_drawable/trajectory_drawable/trajectory_drawable.hpp",
+			"sourceGroupIndex" : 99
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/triangles_drawable/triangles_drawable.cpp",
+			"sourceGroupIndex" : 100
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/16_drawable/triangles_drawable/triangles_drawable.hpp",
+			"sourceGroupIndex" : 100
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer.hpp",
+			"sourceGroupIndex" : 101
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_basic/timer_basic.cpp",
+			"sourceGroupIndex" : 102
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_basic/timer_basic.hpp",
+			"sourceGroupIndex" : 102
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_event_periodic/timer_event_periodic.cpp",
+			"sourceGroupIndex" : 103
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_event_periodic/timer_event_periodic.hpp",
+			"sourceGroupIndex" : 103
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_fps/timer_fps.cpp",
+			"sourceGroupIndex" : 104
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_fps/timer_fps.hpp",
+			"sourceGroupIndex" : 104
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_interval/timer_interval.cpp",
+			"sourceGroupIndex" : 105
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/17_timer/timer_interval/timer_interval.hpp",
+			"sourceGroupIndex" : 105
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking.hpp",
+			"sourceGroupIndex" : 106
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking_plane/picking_plane.cpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking_plane/picking_plane.hpp",
+			"sourceGroupIndex" : 107
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking_spheres/picking_spheres.cpp",
+			"sourceGroupIndex" : 108
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking_spheres/picking_spheres.hpp",
+			"sourceGroupIndex" : 108
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking_structure/picking_structure.cpp",
+			"sourceGroupIndex" : 109
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/picking/picking_structure/picking_structure.hpp",
+			"sourceGroupIndex" : 109
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/tracker/tracker.hpp",
+			"sourceGroupIndex" : 110
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/tracker/velocity_tracker/velocity_tracker.cpp",
+			"sourceGroupIndex" : 111
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/tracker/velocity_tracker/velocity_tracker.hpp",
+			"sourceGroupIndex" : 111
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/18_user_interactions/user_interactions.hpp",
+			"sourceGroupIndex" : 112
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller.hpp",
+			"sourceGroupIndex" : 113
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.cpp",
+			"sourceGroupIndex" : 114
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_2d_displacement/camera_controller_2d_displacement.hpp",
+			"sourceGroupIndex" : 114
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_first_person/camera_controller_first_person.cpp",
+			"sourceGroupIndex" : 115
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_first_person/camera_controller_first_person.hpp",
+			"sourceGroupIndex" : 115
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.cpp",
+			"sourceGroupIndex" : 116
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_first_person_euler/camera_controller_first_person_euler.hpp",
+			"sourceGroupIndex" : 116
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.cpp",
+			"sourceGroupIndex" : 117
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_fly_mode/camera_controller_fly_mode.hpp",
+			"sourceGroupIndex" : 117
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_generic_base/camera_controller_generic_base.cpp",
+			"sourceGroupIndex" : 118
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_generic_base/camera_controller_generic_base.hpp",
+			"sourceGroupIndex" : 118
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_orbit/camera_controller_orbit.cpp",
+			"sourceGroupIndex" : 119
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_orbit/camera_controller_orbit.hpp",
+			"sourceGroupIndex" : 119
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.cpp",
+			"sourceGroupIndex" : 120
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/camera_controller_orbit_euler/camera_controller_orbit_euler.hpp",
+			"sourceGroupIndex" : 120
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/test/test_camera_controller.cpp",
+			"sourceGroupIndex" : 121
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/19_camera_controller/test/test_camera_controller.hpp",
+			"sourceGroupIndex" : 121
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/20_format_parser/format_parser.hpp",
+			"sourceGroupIndex" : 122
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/20_format_parser/mesh_loader/mesh_loader.hpp",
+			"sourceGroupIndex" : 123
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/20_format_parser/mesh_loader/obj/obj.cpp",
+			"sourceGroupIndex" : 124
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/20_format_parser/mesh_loader/obj/obj.hpp",
+			"sourceGroupIndex" : 124
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/20_format_parser/mesh_loader/obj_advanced/obj_advanced.cpp",
+			"sourceGroupIndex" : 125
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/20_format_parser/mesh_loader/obj_advanced/obj_advanced.hpp",
+			"sourceGroupIndex" : 125
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/21_scene_project_helper/path/path.cpp",
+			"sourceGroupIndex" : 126
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/21_scene_project_helper/path/path.hpp",
+			"sourceGroupIndex" : 126
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/21_scene_project_helper/scene_project_helper.hpp",
+			"sourceGroupIndex" : 127
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/cgp.hpp",
+			"sourceGroupIndex" : 128
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/cgp_parameters.hpp",
+			"sourceGroupIndex" : 128
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/cgp/opengl_include.hpp",
+			"sourceGroupIndex" : 128
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl33/glad.cpp",
+			"sourceGroupIndex" : 129
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl33/glad.hpp",
+			"sourceGroupIndex" : 129
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl33/khrplatform.hpp",
+			"sourceGroupIndex" : 129
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl41/glad.cpp",
+			"sourceGroupIndex" : 130
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl41/glad.hpp",
+			"sourceGroupIndex" : 130
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl41/khrplatform.hpp",
+			"sourceGroupIndex" : 130
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl43/glad.cpp",
+			"sourceGroupIndex" : 131
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl43/glad.hpp",
+			"sourceGroupIndex" : 131
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl43/khrplatform.hpp",
+			"sourceGroupIndex" : 131
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl46/glad.cpp",
+			"sourceGroupIndex" : 132
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl46/glad.hpp",
+			"sourceGroupIndex" : 132
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/glad/opengl46/khrplatform.hpp",
+			"sourceGroupIndex" : 132
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imconfig.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui.cpp",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_demo.cpp",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_draw.cpp",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_impl_glfw.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.cpp",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_impl_opengl3.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_internal.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imgui_widgets.cpp",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imstb_rectpack.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imstb_textedit.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/imgui/imstb_truetype.h",
+			"sourceGroupIndex" : 133
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/jpeg/jpgd.cpp",
+			"sourceGroupIndex" : 134
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/jpeg/jpgd.h",
+			"sourceGroupIndex" : 134
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/jpeg/jpge.cpp",
+			"sourceGroupIndex" : 134
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/jpeg/jpge.h",
+			"sourceGroupIndex" : 134
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/lodepng/lodepng.cpp",
+			"sourceGroupIndex" : 135
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/lodepng/lodepng.h",
+			"sourceGroupIndex" : 135
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.cpp",
+			"sourceGroupIndex" : 136
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/simplexnoise/simplexnoise1234.hpp",
+			"sourceGroupIndex" : 136
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/cgp/library/third_party/src/tinyobj/tiny_obj_loader.hpp",
+			"sourceGroupIndex" : 137
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/mesh/frag.glsl",
+			"sourceGroupIndex" : 138
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/mesh/mesh.frag.glsl",
+			"sourceGroupIndex" : 138
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/mesh/mesh.vert.glsl",
+			"sourceGroupIndex" : 138
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/mesh/vert.glsl",
+			"sourceGroupIndex" : 138
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/single_color/frag.glsl",
+			"sourceGroupIndex" : 139
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/single_color/single_color.frag.glsl",
+			"sourceGroupIndex" : 139
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/single_color/single_color.vert.glsl",
+			"sourceGroupIndex" : 139
+		},
+		{
+			"backtrace" : 1,
+			"path" : "shaders/single_color/vert.glsl",
+			"sourceGroupIndex" : 139
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/environment.cpp",
+			"sourceGroupIndex" : 140
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/environment.hpp",
+			"sourceGroupIndex" : 140
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 140
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/scene.cpp",
+			"sourceGroupIndex" : 140
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/scene.hpp",
+			"sourceGroupIndex" : 140
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/simulation/simulation.cpp",
+			"sourceGroupIndex" : 141
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/simulation/simulation.hpp",
+			"sourceGroupIndex" : 141
+		}
+	],
+	"type" : "EXECUTABLE"
+}

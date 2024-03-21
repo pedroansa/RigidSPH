@@ -1,0 +1,3 @@
+C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/scenes_inf585/12_sph/build/CMakeFiles/12_sph.dir
+C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/scenes_inf585/12_sph/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/OneDrive/Documentos/IGD/INF585/inf585_lab_code/scenes_inf585/12_sph/build/CMakeFiles/ZERO_CHECK.dir
