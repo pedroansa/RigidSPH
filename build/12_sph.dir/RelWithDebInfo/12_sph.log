@@ -1,3 +1,0 @@
-﻿  scene.cpp
-C:\Users\pedro\OneDrive\Documentos\IGD\INF585\inf585_lab_code\scenes_inf585\12_sph\src\scene.cpp(72,9): warning C4189: 'v': variável local é inicializada mas não referenciada
-  12_sph.vcxproj -> C:\Users\pedro\OneDrive\Documentos\IGD\INF585\inf585_lab_code\scenes_inf585\12_sph\12_sph.exe

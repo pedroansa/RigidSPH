@@ -59,12 +59,11 @@ void scene_structure::display_frame()
 	
 	timer.update(); // update the timer to the current elapsed time
 	float const dt = 0.005f * timer.scale;
-	simulate(dt, particles, sph_parameters);
+	simulate(dt, particles, sph_parameters, rigid_body_square);
 
-	rigid_body_square.update(dt);
 	draw(rigid_body_square.mesh, environment);
 
-	vec3 square_center = rigid_body_square.position; 
+	/*vec3 square_center = rigid_body_square.position;
 	float square_half_side = 0.1f * rigid_body_square.mesh.model.scaling;
 
 	for (int k = 0; k < particles.size(); ++k) {
@@ -77,7 +76,7 @@ void scene_structure::display_frame()
 		if (collision_x && collision_y) {
 			std::cout << "colided" << std::endl;
 		}
-	}
+	}*/
 
 	if (gui.display_particles) {
 		for (int k = 0; k < particles.size(); ++k) {
